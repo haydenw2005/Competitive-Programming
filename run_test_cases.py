@@ -7,6 +7,8 @@ import sys
 import subprocess
 import time
 
+# My custom test suite!
+
 def run_test_cases(problem_week, problem_name):
     test_cases_dir = f"week{problem_week}/{problem_name}/test_cases"
     solution_file = f"week{problem_week}/{problem_name}/{problem_name}.py"

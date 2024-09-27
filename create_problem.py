@@ -1,6 +1,8 @@
 import os
 import sys
 
+# Code to set up problem and its respective folders
+
 def create_problem(week, problem_name):
     week_dir = f"week{week}"
     problem_dir = f"{week_dir}/{problem_name}"
