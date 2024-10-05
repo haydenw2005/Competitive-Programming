@@ -1,24 +1,21 @@
-# Create a test case generator for the worst-case scenario
-def generate_worst_case_test_file(filename):
-    max_test_cases = 100
-    max_price = 1_000_000  # in cents
-    max_people = 100
-    max_contribution = 1_000_000  # maximum contribution a person can make
-    min_contribution = 1  # minimum contribution a person can make
+import random
 
+def generate_custom_test_file(filename):
     with open(filename, "w") as file:
-        # Write the number of test cases
-        file.write(f"{max_test_cases}\n")
+        # First line: Always 100
+        file.write("100\n")
         
-        for _ in range(max_test_cases):
-            # Generate worst case with max price and max number of people
-            file.write(f"{max_price} {max_people}\n")
-            
-            # Generate contributions: alternate between the minimum and maximum contribution
-            contributions = [min_contribution if i % 2 == 0 else max_contribution for i in range(max_people)]
-            
-            # Write contributions to file
-            file.write(" ".join(map(str, contributions)) + "\n")
+        # Second line: 100 values, 1 <= k <= 1000
+        second_line = [str(random.randint(1, 1000)) for _ in range(100)]
+        file.write(" ".join(second_line) + "\n")
+        
+        # Third line: 1 <= m <= 1000
+        m = random.randint(1, 1000)
+        file.write(f"{m}\n")
+        
+        # Fourth line: m values, 1 <= l <= 30,000
+        fourth_line = [str(random.randint(1, 30000)) for _ in range(m)]
+        file.write(" ".join(fourth_line) + "\n")
 
-# Call the function to create the worst-case test file
-generate_worst_case_test_file("worst_case_test.txt")
+# Call the function to create the custom test file
+generate_custom_test_file("custom_test.txt")
