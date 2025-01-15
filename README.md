@@ -1,4 +1,4 @@
-# Competitive Programming for CS211
+# Competitive Programming
 
 Welcome to my **Competitive Programming** repository! This repo contains my solutions to various coding problems from different platforms (mainly Kattis), which vary in content by week.
 
