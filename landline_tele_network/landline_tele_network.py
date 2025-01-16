@@ -3,8 +3,6 @@
 #! /usr/bin/python3
 import heapq
 
-# Chat link: NONE
-
 # Can use simple UnionFind data structure, which was just taught in 251
 # Implmentation adapted from slides
 class UnionFind:

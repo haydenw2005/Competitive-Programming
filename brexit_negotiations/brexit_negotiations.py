@@ -2,7 +2,6 @@
 #It is ok to share my code anonymously for educational purposes
 #! /usr/bin/python3
 
-# Chat Link: NO GEN AI USED FOR THIS PROBLEM. 
 
 import heapq
 

@@ -2,8 +2,6 @@
 #It is ok to share my code anonymously for educational purposes
 #! /usr/bin/python3
 
-# Chat link: https://chatgpt.com/share/6722e8fd-c2b0-800a-af58-fcf8b55d5aab
-
 from collections import deque
 
 # function to count how big the board would be IF we were to update for some color

@@ -2,7 +2,6 @@
 # It is ok to share my code anonymously for educational purposes
 #! /usr/bin/python3
 
-# Chat link: NONE
 
 # floyd warshall algorithm to find all pairs shortest path. see source below for inspiration
 # https://stackoverflow.com/questions/15709277/floyd-warshall-with-negative-cycles-how-do-i-find-all-undefined-paths

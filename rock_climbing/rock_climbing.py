@@ -2,8 +2,6 @@
 #It is ok to share my code anonymously for educational purposes
 #! /usr/bin/python3
 
-# Chat link: https://chatgpt.com/share/6722e23b-eea8-800a-ac7a-d1ccee0cea35
-
 from collections import deque
 
 # get input

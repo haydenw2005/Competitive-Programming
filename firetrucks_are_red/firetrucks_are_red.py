@@ -2,7 +2,6 @@
 #It is ok to share my code anonymously for educational purposes
 #! /usr/bin/python3
 
-#CHAT LINK: https://chatgpt.com/share/67295ab3-e2a0-800a-814b-dbf4b9514812
 
 # Can use simple UnionFind data structure, which was just taught in 251
 # Implmentation adapted from slides

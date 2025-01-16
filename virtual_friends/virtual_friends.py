@@ -2,10 +2,7 @@
 #It is ok to share my code anonymously for educational purposes
 #! /usr/bin/python3
 
-# Chat link: NONE
-
-# Can use simple UnionFind data structure, which was just taught in 251
-# Implmentation adapted from slides
+# Can use simple UnionFind data structure
 class UnionFind: 
     def __init__(self):
         self.parent = {}
